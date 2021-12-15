@@ -28,8 +28,6 @@ if(length(new.packages)) install.packages(new.packages)
 #and loading the packages into R with a for loop
 for(i in package.list){library(i, character.only = T)}
 
-??bipartite
-
 #2 LOADING DNA SEQUENCES--------------------------------------------------------
 
 #exported aligned sequences from Geneious as .fasta file and edited in 
@@ -111,8 +109,6 @@ lon = c(-113.1480556, -113.1480556, -113.1480556,
 #(slides 14 - 16) using the gdist function from the 'Imap' package and 
 #creates a function that generates a matrix of geographic distances
 
-?gdist
-
 ReplaceLowerOrUpperTriangle <- function(m, triangle.to.replace){
   
   if(nrow(m) !=ncol(m)) stop("Supplied matrix must be square.")
@@ -176,8 +172,6 @@ geodist_euclidean <- round(GeoDistanceInMetersMatrix(geo_suaeda) / 1000)
 #5 CONDUCT MANTEL TEST----------------------------------------------------------
 
 #using package 'vegan'
-
-?mantel
 
 #Mantel r values can fall within a range between -1 to 1. 
 #An r value of -1 suggests a strong negative correlation, 
@@ -331,7 +325,7 @@ vis5 <- ggplot(mat4, aes(y = gend, x = geob)) +
 vis5
 
 
-#export plots as pdf
+#export plots as png
 ggsave(
   filename = here::here("final-figures", "euclidean.png"),
   plot = vis,
