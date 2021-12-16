@@ -261,7 +261,7 @@ mat4 <- data.frame(gend, geob)
 vis <- ggplot(mat, aes(y = gend, x = geod)) + 
   geom_smooth(method = "lm", alpha =0.51, colour = "blue") + 
   geom_point(size =2, alpha = 1) +
-  labs(y = "Genetic Distance (%)", x = "Geographic Distance (km)") + 
+  labs(y = "Genetic Distance (%)", x = "Euclidean Distance (km)") + 
   theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
          axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
