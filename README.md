@@ -1,3 +1,7 @@
 # suaeda-phylogeography
 
 [![DOI](https://zenodo.org/badge/438655289.svg)](https://zenodo.org/badge/latestdoi/438655289)
+
+Estuaries form a series of unique wetland habitats isolated from each other, often facilitating genetic divergence among populations. The estuarine seablite *Suaeda esteroa* Ferren & S. A. Whitmore (Suaedoideae;Chenopodiaceae) is common in northwestern Mexican estuaries and the isolation
+among these wetlands may promote diversification within the species. In this study, we created a novel genome skim dataset from *S. esteroa* herbarium specimens collected from estuaries along the
+northwestern Mexican coast to assess genetic patterns among populations. We constructed maximum likelihood and Bayesian phylogenetic trees as well as conducted Mantel tests to evaluate if populations are isolated by distance and/or barrier.  While our phylogenetic analyses revealed trends mostly consistent with geography, several clades included individuals from geographically distant estuaries.  Despite recovering some clades that were not congruent with geography, our landscape genetics analyses provide evidence that more geographically distant populations are more genetically distant and that the Baja California peninsula acts as a barrier to dispersal. We hope our findings will encourage further investigation of gene flow among northwestern Mexican estuaries and promote conservation action within the region.
