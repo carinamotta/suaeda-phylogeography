@@ -262,8 +262,8 @@ vis <- ggplot(mat, aes(y = gend, x = geod)) +
   geom_smooth(method = "lm", alpha =0.51, colour = "blue") + 
   geom_point(size =2, alpha = 1) +
   labs(y = "Genetic Distance (%)", x = "Euclidean Distance (km)") + 
-  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
-         axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
+  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 18), 
+         axis.text.y = element_text(face = "bold", size = 18, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
          panel.background = element_blank(), 
          panel.border = element_rect(fill = NA, colour = "black"), 
@@ -276,8 +276,8 @@ vis2 <- ggplot(mat2, aes(y = gend, x = geoc)) +
   geom_smooth(method = "lm", alpha =0.51, colour = "blue") + 
   geom_point(size =2, alpha = 1) +
   labs(y = "Genetic Distance (%)", x = "Coastal Distance (km)") + 
-  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
-         axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
+  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 18), 
+         axis.text.y = element_text(face = "bold", size = 18, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
          panel.background = element_blank(), 
          panel.border = element_rect(fill = NA, colour = "black"), 
@@ -290,8 +290,8 @@ vis3 <- ggplot(mat3, aes(y = gend, x = geoo)) +
   geom_smooth(method = "lm", alpha =0.51, colour = "blue") + 
   geom_point(size =2, alpha = 1) +
   labs(y = "Genetic Distance (%)", x = "Oceanic Distance (km)") + 
-  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
-         axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
+  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 18), 
+         axis.text.y = element_text(face = "bold", size = 18, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
          panel.background = element_blank(), 
          panel.border = element_rect(fill = NA, colour = "black"), 
@@ -303,8 +303,8 @@ vis3
 vis4 <- ggplot(mat4, aes(y = gend, x = geob)) + 
   geom_boxplot() +
   labs(y = "Genetic Distance (%)", x = "Biogeographic Barrier Absent/Present (0/1)") + 
-  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
-         axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
+  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 18), 
+         axis.text.y = element_text(face = "bold", size = 18, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
          panel.background = element_blank(), 
          panel.border = element_rect(fill = NA, colour = "black"), 
@@ -316,8 +316,8 @@ vis5 <- ggplot(mat4, aes(y = gend, x = geob)) +
   geom_boxplot() +
   geom_jitter(alpha = 0.8, width = 0.2) +
   labs(y = "Genetic Distance (%)", x = "Biogeographic Barrier Absent/Present (0/1)") + 
-  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 15), 
-         axis.text.y = element_text(face = "bold", size = 15, colour = "black"), 
+  theme( axis.text.x = element_text(face = "bold",colour = "black", size = 18), 
+         axis.text.y = element_text(face = "bold", size = 18, colour = "black"), 
          axis.title= element_text(face = "bold", size = 20, colour = "black"), 
          panel.background = element_blank(), 
          panel.border = element_rect(fill = NA, colour = "black"), 
